@@ -11,8 +11,10 @@ function App() {
   return (
     <SetStateContext.Provider value={setState}>
       <StateContext.Provider value={state}>
-      <Home/>
+        <center>
       <h1 style={{color:state}}>Hello World!</h1>
+      <Home/>
+      </center>
       </StateContext.Provider>
       </SetStateContext.Provider>
   
